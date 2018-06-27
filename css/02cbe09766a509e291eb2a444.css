@@ -1,0 +1,76 @@
+/********************
+rgb_lcd
+********************/
+.lcdscreen {
+  background-color: #87AD34;
+  font-size: 0px;
+  padding-bottom: 4px;
+  border:10px solid #303030;
+  border-radius: 6px;
+  width: 315px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pixel {
+  display: inline-block;
+  background-color: #7B9F31;
+  height: 2px;
+  width: 2px;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 1px;
+  margin-top: 1px;
+}
+
+.pixel-on {
+  background-color: #0b4233;
+}
+
+.letter {
+  font-size: 0px;
+  display: inline-block;
+  margin-left: 2px;
+  width: 15px;
+}
+
+.LCDRow {
+  display: block;
+  border: 0px;
+  padding: 0px;
+  margin-top: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 272px;
+}
+
+.LCD-blue {
+  background-color: #417FFD;
+}
+.LCD-blue .pixel {
+  background-color: #3163c6;
+}
+
+.LCD-blue .pixel-on {
+  background-color: #F177FD;
+}
+.blink .pixel {
+  animation: blink 3s steps(1, start) infinite;
+  -webkit-animation: blink 3s steps(1, start) infinite;
+}
+@keyframes blink {
+  50% { background-color: #0b4233; }
+  100% {}
+}
+@-webkit-keyframes blink {
+  50% { background-color: #0b4233; }
+  100% {}
+}
+
+.pixelated {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+}

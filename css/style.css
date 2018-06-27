@@ -1,0 +1,88 @@
+.button{
+  border: solid 3px #aaa;
+  border-radius: 4px;
+  width: 80px;
+  height: 50px;
+  font-size: 30px;
+  color: #aaa;
+}
+
+.button-random{
+  border: solid 3px #aaa;
+  border-radius: 4px;
+  width: 80px;
+  height: 50px;
+  font-size: 30px;
+  color: white;
+  background: #aaa;
+}
+
+.button-list{
+  border: solid 3px #aaa;
+  border-radius: 4px;
+  width: 300px;
+  height: 30px;
+  font-size: 18px;
+  color: white;
+  background: #aaa;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.button-inside-list{
+  border: solid 3px #aaa;
+  border-radius: 4px;
+  width: 300px;
+  height: 30px;
+  font-size: 18px;
+  color: #aaa;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.list-items{
+  display: flex;
+  justify-content: center;
+}
+
+.list-items-hide{
+  display: flex;
+  justify-content: center;
+}
+
+.player {
+  width: 500px;
+  margin: auto;
+}
+
+.lcd{
+  border: solid 3px #aaa;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.lcd_2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.Allbuttons{
+  padding-top:10px;
+  display:flex;
+  justify-content: space-around;
+}
