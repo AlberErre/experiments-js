@@ -4,6 +4,7 @@ const cartonPlayer = document.querySelector(".carton");
 
 const cartonCPU = document.querySelector(".carton2");
 
+let ButtonStillHere = 0;
 let currentBingoNumber = 0;
 let bolasRandom = [];
 let numerosPlayer = [];
@@ -22,12 +23,14 @@ const playBINGO = () => {
   // .join(' ') is used to display only
   if (newNumerosPlayer.length == 0 ) {
    cartonPlayer.innerHTML = '<h1>Player has won!!</h1>';
+   hidePlayButton();
   } else {
    cartonPlayer.innerHTML = newNumerosPlayer.join(' ');
   }
   
   if (newNumerosCPU.length == 0) {
    cartonCPU.innerHTML = '<h1>CPU has won!!</h1>';
+   hidePlayButton();
   } else {
    cartonCPU.innerHTML = newNumerosCPU.join(' ');
   }
@@ -55,6 +58,12 @@ const resetBINGO = () => {
   let bolasRaw = _.range(0,90);
   let bolas = bolasRaw.map(e => e + 1);
   bolasRandom = _.shuffle(bolas);
+  
+  // Show again Play button if was hidden
+  if (ButtonStillHere == 1) {
+    hidePlayButton();
+    ButtonStillHere = 0;
+  }
 }
 
 const pullBola = (bola, array) => {
@@ -83,6 +92,11 @@ const createCard = () => {
   }
 
   return cartonFinal;
+}
+
+const hidePlayButton = () => {
+  ButtonStillHere = 1;
+  document.querySelector(".buttonPlay").classList.toggle('hide');
 }
 
 /*

@@ -57,7 +57,7 @@
   align-items: space-between;
 }
 
-.button{
+.buttonPlay{
   text-align: center;
   font-size: 40px; 
   border: solid 3px #eeeeee;
@@ -65,4 +65,18 @@
   margin-top: 40px;
   margin-right: 40px;
   margin-left: 40px;
+}
+
+.buttonReset{
+  text-align: center;
+  font-size: 40px; 
+  border: solid 3px #eeeeee;
+  border-radius: 7px;
+  margin-top: 40px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.hide {
+  display: none;
 }
