@@ -15,3 +15,8 @@ A Pen created at CodePen.io. You can find this one at https://codepen.io/AlberEr
 ### Dice code:
 A Pen created at CodePen.io. You can find this one at https://codepen.io/AlberErre/pen/NzBLQW.
 <img src="https://github.com/AlberErre/Experiments-VanillaJavaScript-CSS/blob/master/dice.png">
+
+### Console experiments:
+`3 < 2 < 1` returns `true`
+
+<img src="https://github.com/AlberErre/Experiments-VanillaJavaScript-CSS/blob/master/experiment-Console-madness/3%3C2%3C1%20is%20true/console-experiments-outputs-1.png">
