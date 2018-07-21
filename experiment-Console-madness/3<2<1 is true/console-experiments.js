@@ -17,6 +17,3 @@ Number(false); // --> 0
 console.log(0 < 1); // --> TRUE
 
 // 3 < 2 < 1 == 0 < 1, which is indeed, true.
-
-
-////////// SECOND EXPERIMENT
