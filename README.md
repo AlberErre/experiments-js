@@ -11,28 +11,28 @@
 ---------- 
 
 ### 🎵 Musicplayer:
-<img src="https://github.com/AlberErre/Experiments-VanillaJavaScript-CSS/blob/master/musicplayer.png">
+<img src="experiments/musicplayer.png">
 
 ---------- 
 
 ### 🎉 Bingo code:
-<img src="https://github.com/AlberErre/Experiments-VanillaJavaScript-CSS/blob/master/bingo.png"> 
+<img src="experiments/bingo.png"> 
 
 ---------- 
 
 ### 🎹 Piano code:
-<img src="https://github.com/AlberErre/Experiments-VanillaJavaScript-CSS/blob/master/piano.png">
+<img src="experiments/piano.png">
 
 ---------- 
 
 ### 🎲 Dice code:
-<img src="https://github.com/AlberErre/Experiments-VanillaJavaScript-CSS/blob/master/dice.png">
+<img src="experiments/dice.png">
 
 ---------- 
 
 ### 🕹️ Console experiments:
 `3 < 2 < 1` returns `true`
 
-A more detailed explanation is available [here!](https://github.com/AlberErre/Experiments-VanillaJavaScript-CSS/tree/master/experiment-Console-madness)
+A more detailed explanation is available [here!](experiments/Console/console-experiments.js)
 
-<img src="https://github.com/AlberErre/Experiments-VanillaJavaScript-CSS/blob/master/experiment-Console-madness/3%3C2%3C1%20is%20true/console-experiments-outputs-1.png">
+<img src="experiments/console.png">
