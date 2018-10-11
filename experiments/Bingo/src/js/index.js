@@ -3,6 +3,7 @@ const _ = require('lodash');
 const vanillaTilt = require('vanilla-tilt');
 const swal = require('sweetalert2');
 
+// init vanillaTilt
 VanillaTilt.init(document.querySelector(".playerContainer"), {
     max: 25,
     speed: 400,
