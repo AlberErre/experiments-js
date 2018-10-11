@@ -2,21 +2,21 @@
 
 | Experiment        | Github                                    | Live example                            |
 | -------------     |-------------                              |:-------------:                          |
+| Bingo             | 🎉 [Bingo](experiments/Bingo)             | https://albererre.com/bingo            |
 | Musicplayer       | 🎵 [Musicplayer](experiments/Musicplayer) | https://codepen.io/AlberErre/pen/KexJra |
-| Bingo             | 🎉 [Bingo](experiments/Bingo)             | https://codepen.io/AlberErre/pen/yEGjep |
 | Interactive Piano | 🎹 [Piano](experiments/Piano)             | https://codepen.io/AlberErre/pen/NzEOWO |
 | Launching Dice    | 🎲 [Dice](experiments/Dice)               | https://codepen.io/AlberErre/pen/NzBLQW |
 | Console           | 🕹️ [Console](experiments/Console)         |                                         |
 
 ---------- 
 
-### 🎵 Musicplayer:
-<img src="experiments/musicplayer.png">
+### 🎉 Bingo code:
+<img src="experiments/bingo.gif">
 
 ---------- 
 
-### 🎉 Bingo code:
-<img src="experiments/bingo.png"> 
+### 🎵 Musicplayer:
+<img src="experiments/musicplayer.png">
 
 ---------- 
 
