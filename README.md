@@ -10,27 +10,27 @@
 
 ---------- 
 
-### 🎉 Bingo code:
+### 🎉 Bingo example:
 <img src="experiments/bingo.gif">
 
 ---------- 
 
-### 🎵 Musicplayer:
+### 🎵 Musicplayer example:
 <img src="experiments/musicplayer.png">
 
 ---------- 
 
-### 🎹 Piano code:
+### 🎹 Piano example:
 <img src="experiments/piano.png">
 
 ---------- 
 
-### 🎲 Dice code:
+### 🎲 Dice example:
 <img src="experiments/dice.png">
 
 ---------- 
 
-### 🕹️ Console experiments:
+### 🕹️ Console example:
 `3 < 2 < 1` returns `true`
 
 A more detailed explanation is available [here!](experiments/Console/console-experiments.js)
