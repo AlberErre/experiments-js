@@ -1,5 +1,5 @@
 {
-  "name": "parcel-init",
+  "name": "bingo-project-albererre",
   "version": "1.0.0",
   "description": "init a parcel instalation with config files",
   "main": "index.js",
@@ -7,7 +7,10 @@
     "parcel-serve": "node_modules/.bin/parcel serve src/index.html",
     "build-prod": "node_modules/.bin/parcel build src/index.html --no-source-maps -d build/output --public-url /bingo/"
   },
-  "author": "Alber Erre",
+  "author": {
+    "name": "Alber Erre",
+    "url": "https://albererre.com/"
+  },
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.3",
