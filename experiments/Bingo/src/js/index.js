@@ -55,6 +55,8 @@ let checkWin = () => {
 }
 
 let randomNumber = (_event) => {
+    
+    console.log(_event);
   
     // check if this is the first time you push button
     (started == false ? startGame() : true );
