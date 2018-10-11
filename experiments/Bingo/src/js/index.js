@@ -50,9 +50,9 @@ let finishGame = (_msg) => {
 
 let checkWin = () => {
 
-    ((humanCounter >= 15 && machineCounter >= 15) ? finishGame("Tables!") : true);
     (humanCounter >= 15 ? finishGame("Human has won") : true);
     (machineCounter >= 15 ? finishGame("Machine has won") : true);
+    ((humanCounter >= 15 && machineCounter >= 15) ? finishGame("Tables!") : true);
 }
 
 let randomNumber = (_event) => {
