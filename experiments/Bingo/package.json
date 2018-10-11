@@ -1,0 +1,28 @@
+{
+  "name": "parcel-init",
+  "version": "1.0.0",
+  "description": "init a parcel instalation with config files",
+  "main": "index.js",
+  "scripts": {
+    "parcel-serve": "node_modules/.bin/parcel serve src/index.html",
+    "build-prod": "node_modules/.bin/parcel build src/index.html --no-source-maps -d build/output"
+  },
+  "author": "Alber Erre",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "parcel-bundler": "^1.10.1",
+    "postcss-clean": "^1.1.0",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-font-magician": "^2.2.1",
+    "postcss-mixins": "^6.2.0",
+    "postcss-preset-env": "^6.0.7"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "snarkdown": "^1.2.2",
+    "sweetalert2": "^7.28.4",
+    "vanilla-tilt": "^1.4.1"
+  }
+}
