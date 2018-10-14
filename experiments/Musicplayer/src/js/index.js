@@ -83,8 +83,8 @@ const random = () => {
 
 const showList = () => {
   
-  
-  
+  listAudio.classList.toggle('close-list');
+  listAudio.classList.toggle('open-list');
 }
 
 const selectTrack = (e) => {
@@ -103,3 +103,6 @@ for (let x = 0; audios.length; x++) {
   listAudio.innerHTML = listAudio.innerHTML + clickable_musicList[x]
   
 }
+
+// clickable_musicList.join('')
+// Esto devuelve todo el string, a raiz d euna lista

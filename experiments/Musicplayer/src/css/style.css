@@ -1,41 +1,83 @@
+body {
+  height: 100vh;
+}
+
+body {
+  margin:0;
+}
+
+.bg {
+  animation:slide 10s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #09f 50%, white 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:10s;
+}
+
+.bg3 {
+  animation-duration:10s;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+
 .button{
-  border: solid 3px #aaa;
+  border: solid 3px #303030;
   border-radius: 4px;
+  background: transparent;
   width: 80px;
   height: 50px;
   font-size: 30px;
-  color: #aaa;
+  color: #303030;
 }
 
 .button-random{
-  border: solid 3px #aaa;
+  background: #303030;
+  border: solid 3px #303030;
   border-radius: 4px;
   width: 80px;
   height: 50px;
   font-size: 30px;
   color: white;
-  background: #aaa;
 }
 
 .button-list{
-  border: solid 3px #aaa;
+  font-family: "Indie flower";
+  border: solid 3px #303030;
   border-radius: 4px;
   width: 300px;
   height: 30px;
-  font-size: 18px;
+  font-size: 20px;
   color: white;
-  background: #aaa;
+  background: #303030;
   margin-top: 20px;
   justify-content: center;
 }
 
 .button-inside-list{
-  border: solid 3px #aaa;
+  font-family: "Indie flower";
+  border: solid 2px #303030;
   border-radius: 4px;
+  background: transparent;
   width: 300px;
   height: 30px;
   font-size: 18px;
-  color: #aaa;
+  color: black;
   margin-top: 20px;
   justify-content: center;
 }
@@ -53,6 +95,7 @@
 .player {
   width: 500px;
   margin: auto;
+  margin-top: 20vh;
 }
 
 .lcd{
@@ -85,4 +128,15 @@
   padding-top:10px;
   display:flex;
   justify-content: space-around;
+}
+
+.open-list{
+  height: auto;
+  padding: 10px;
+}
+
+.close-list{
+  height: 0px;
+  padding: 0px;
+  overflow: hidden;
 }

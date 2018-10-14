@@ -1,0 +1,15 @@
+{
+  "name": "musicplayer-project-albererre",
+  "version": "1.0.0",
+  "description": "music player with sample songs",
+  "main": "index.js",
+  "author": {
+    "name": "Alber Erre",
+    "url": "https://albererre.com/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+  }
+}
