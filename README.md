@@ -4,8 +4,8 @@
 | -------------     |-------------                              |:-------------:                          |
 | Bingo             | 🎉 [Bingo](experiments/Bingo)             | https://albererre.com/experiments/bingo |
 | Musicplayer       | 🎵 [Musicplayer](experiments/Musicplayer) | https://albererre.com/experiments/music |
-| Interactive Piano | 🎹 [Piano](experiments/Piano)             | https://codepen.io/AlberErre/pen/NzEOWO |
-| Launching Dice    | 🎲 [Dice](experiments/Dice)               | https://codepen.io/AlberErre/pen/NzBLQW |
+| Interactive Piano | 🎹 [Piano](experiments/Piano)             | https://albererre.com/experiments/piano |
+| Launching Dice    | 🎲 [Dice](experiments/Dice)               | https://albererre.com/experiments/dice  |
 | Console           | 🕹️ [Console](experiments/Console)         |                                         |
 
 ---------- 
@@ -20,13 +20,13 @@
 
 ---------- 
 
-### 🎹 Piano example:
-<img src="experiments/piano.png">
+### 🎹 Piano Live example:
+[<img src="experiments/piano.png">](https://albererre.com/experiments/piano)
 
 ---------- 
 
-### 🎲 Dice example:
-<img src="experiments/dice.png">
+### 🎲 Dice Live example:
+[<img src="experiments/dice.png">](https://albererre.com/experiments/dice)
 
 ---------- 
 
