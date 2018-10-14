@@ -2,7 +2,7 @@ const lcdRGB = require("./lcd");
 
 const audios = [
   ["https://github.com/AlberErre/experiments-js/blob/master/experiments/Musicplayer/assets/awakening.mp3?raw=true", "Awakening"],
-  ["https://github.com/AlberErre/experiments-js/blob/master/experiments/Musicplayer/assets/conqueror.mp3", "Conqueror"],
+  ["https://github.com/AlberErre/experiments-js/blob/master/experiments/Musicplayer/assets/conqueror.mp3?raw=true", "Conqueror"],
   ["https://scummbar.com/mi2/MI1-SE/01%20-%20The%20Gold%20Guy.mp3", "Gold Guy"],
   ["https://scummbar.com/mi2/MI1-SE/20%20-%20Organ%20Prelude.mp3", "Organ Prelude"],
   ["https://scummbar.com/mi2/MI1-SE/14%20-%20Melee%20Forest.mp3", "Melee Forest"],
