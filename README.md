@@ -10,13 +10,13 @@
 
 ---------- 
 
-### 🎉 Bingo example:
+### 🎉 Bingo Live example:
 [<img src="experiments/bingo.gif">](https://albererre.com/experiments/bingo)
 
 ---------- 
 
-### 🎵 Musicplayer example:
-[<img src="experiments/musicplayer.gif" width="600">](https://albererre.com/experiments/musicplayer)
+### 🎵 Musicplayer Live example:
+[<img src="experiments/musicplayer.gif" width="600">](https://albererre.com/experiments/music)
 
 ---------- 
 
