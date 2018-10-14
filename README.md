@@ -21,12 +21,12 @@
 ---------- 
 
 ### 🎹 Piano Live example:
-[<img src="experiments/piano.png">](https://albererre.com/experiments/piano)
+[<img src="experiments/piano.png" width="800">](https://albererre.com/experiments/piano)
 
 ---------- 
 
 ### 🎲 Dice Live example:
-[<img src="experiments/dice.png">](https://albererre.com/experiments/dice)
+[<img src="experiments/dice.png" width="700">](https://albererre.com/experiments/dice)
 
 ---------- 
 
