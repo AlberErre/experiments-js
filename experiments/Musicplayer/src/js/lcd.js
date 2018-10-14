@@ -1,4 +1,3 @@
-
 var lcdRGB = {
   lcdNew: function(name, place) {
     $(place).append('<div class="lcdscreen pixelated" id="'+name+'"></div>');
@@ -164,3 +163,5 @@ var lcdRGB = {
     z: ['00000','00000','11111','00010','00100','01000','11111','00000']
   }
 };
+
+module.exports = lcdRGB;
