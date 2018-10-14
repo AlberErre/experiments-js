@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+.particles {
+  z-index: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: 0;
+}
+
+.mainContainer {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    flex-direction: column;
+}
+
+.innerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.dice {
+    font-family: "Indie flower";
+    border: solid 5px #303030;
+    border-radius: 7px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 10em;
+}
+
+.button {
+    font-family: "Indie flower";
+    border: solid 3px #303030;
+    border-radius: 4px;
+    display: block;
+    width: 120px;
+    height: 55px;
+    margin: 7px auto;
+    text-align: center;
+    font-size: 1.8em;
+    outline: none;
+}
+
+.button:hover {
+    color: white;
+    cursor: pointer;
+    font-size: 1.8em;
+    animation: boing 300ms ease-in-out;
+    background-color: #303030;
+}
+
+.button:focus + .dice {
+    animation: boing 400ms ease-in-out;
+}
+
+@keyframes boing {
+    15%, 40%, 75%, 100% {
+        transform-origin: center center;
+    }
+    15% {
+        transform: scale(1.2, 1.1);
+    }
+    40% {
+        transform: scale(0.95, 0.95);
+    }
+    75% {
+        transform: scale(1.05, 1);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}

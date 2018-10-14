@@ -1,0 +1,22 @@
+{
+  "name": "dice--project-albererre",
+  "version": "1.0.0",
+  "description": "1 to 6 dice launcher",
+  "main": "index.js",
+  "scripts": {
+    "parcel-serve": "node_modules/.bin/parcel serve src/index.html --open",
+    "build-prod": "rm -rf build/* && node_modules/.bin/parcel build src/index.html --no-source-maps -d build/output --public-url /experiments/dice/"
+  },
+  "author": "Alber Erre",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "parcel-bundler": "^1.10.1",
+    "postcss-clean": "^1.1.0",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-font-magician": "^2.2.1",
+    "postcss-mixins": "^6.2.0",
+    "postcss-preset-env": "^6.0.7"
+  }
+}
