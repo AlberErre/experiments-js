@@ -44,7 +44,7 @@ body {
   height: 50px;
   font-size: 30px;
   color: #303030;
-  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .button-random{
@@ -55,6 +55,8 @@ body {
   height: 50px;
   font-size: 30px;
   color: white;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .button-list{
