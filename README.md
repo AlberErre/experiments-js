@@ -16,7 +16,7 @@
 ---------- 
 
 ### 🎵 Musicplayer Live example:
-[<img src="experiments/musicplayer.gif" width="600">](https://albererre.com/experiments/music)
+[<img src="experiments/musicplayer.gif">](https://albererre.com/experiments/music)
 
 ---------- 
 
