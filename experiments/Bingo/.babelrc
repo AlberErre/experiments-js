@@ -1,4 +1,3 @@
 {
- "presets": ["env"],
- "fn.name": true
+ "presets": ["env"]
 }
