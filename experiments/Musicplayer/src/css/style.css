@@ -44,6 +44,7 @@ body {
   height: 50px;
   font-size: 30px;
   color: #303030;
+  margin-right: 5px;
 }
 
 .button-random{
@@ -93,9 +94,10 @@ body {
 }
 
 .player {
-  width: 500px;
+  max-width: 500px;
   margin: auto;
   margin-top: 20vh;
+  padding: 10px;
 }
 
 .lcd{
