@@ -1,0 +1,11 @@
+{
+  "name": "piano-project-albererre",
+  "version": "1.0.0",
+  "description": "interactive piano to play around",
+  "main": "index.js",
+  "author": {
+    "name": "Alber Erre",
+    "url": "https://albererre.com/"
+  },
+  "license": "MIT"
+}

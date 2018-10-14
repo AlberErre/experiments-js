@@ -1,4 +1,4 @@
-
+// sound sources
 const soundList = {
     "a1": "https://rawgit.com/pffy/mp3-piano-sound/master/mp3/a1.mp3",
     "a1s": "https://rawgit.com/pffy/mp3-piano-sound/master/mp3/a1s.mp3",
@@ -20,4 +20,4 @@ function keyMusic (id) {
   let soundURL = soundList[id];
   let audio = new Audio(soundURL);
   audio.play();
-}
+};
