@@ -6,7 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10vh;
+    margin-top: 5vh;
     flex-direction: row;
 }
 
@@ -119,4 +119,4 @@ body {
     100% {
         transform: scale(1, 1);
     }
-  }
+}
