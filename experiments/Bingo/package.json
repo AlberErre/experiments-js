@@ -1,7 +1,7 @@
 {
   "name": "bingo-project-albererre",
   "version": "1.0.0",
-  "description": "init a parcel instalation with config files",
+  "description": "Bingo game using random numbers",
   "main": "index.js",
   "scripts": {
     "parcel-serve": "node_modules/.bin/parcel serve src/index.html --open",
