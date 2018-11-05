@@ -1,6 +1,7 @@
 body {
     font-family: "Indie Flower";
 }
+
 .mainContainer {
     background: white;
     display: flex;
@@ -119,4 +120,29 @@ body {
     100% {
         transform: scale(1, 1);
     }
+}
+
+@media only screen and (max-width: 700px) {
+
+    .mainContainer {
+        margin-top: 5vh;
+        margin-bottom: 10vh;
+        flex-direction: column;
+    }
+
+    .bingoTitle {
+        display: none;
+    }
+
+    .carton {
+        width: 80vw;
+        border: solid 1px white;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .number {
+        font-size: 2em;
+    }
+
 }
