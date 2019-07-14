@@ -3,5 +3,5 @@ Interactive web based piano to play around.
 
 ``` 
 npm install
-npm run parcel-serve
+npm run start
 ``` 
