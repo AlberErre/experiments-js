@@ -1,12 +1,35 @@
-# Experiments - using JS + CSS from scratch
+# Experiments - using React, vanilla JS and Firebase 🔥
 
-| Experiment        | Github                                    | Live example                            |
-| -------------     |-------------                              |:-------------:                          |
-| Bingo             | 🎉 [Bingo](experiments/Bingo)             | https://albererre.com/experiments/bingo |
-| Musicplayer       | 🎵 [Musicplayer](experiments/Musicplayer) | https://albererre.com/experiments/music |
-| Interactive Piano | 🎹 [Piano](experiments/Piano)             | https://albererre.com/experiments/piano |
-| Launching Dice    | 🎲 [Dice](experiments/Dice)               | https://albererre.com/experiments/dice  |
-| Console           | 🕹️ [Console](experiments/Console)         |                                         |
+| Experiment       | Github | Live example  | React | Firebase |
+| -------------    |------------- |------------- |------------- |---------- |
+| Space Piano | 🎹👾 [Piano](https://github.com/AlberErre/piano-react-hooks)| http://albererre.com/piano-react-hooks/ | ✅| ✖️ 
+| To Do App | 📝 [ToDo](https://github.com/AlberErre/To-Do-App)             | https://albererre.com/experiments/todoapp/ | ✅| ✅ 
+| Chatty Chat | 💬 [Chat](https://github.com/AlberErre/ChattyChat-firebase-redux)             | https://albererre.com/experiments/chattychat/ | ✅| ✅ 
+| Love certificates | 💍 [Love](https://github.com/AlberErre/marriage-certificates-react)             | https://ether-marriage.com/ | ✅| ✖️ 
+| Bingo             | 🎉 [Bingo](experiments/Bingo)             | https://albererre.com/experiments/bingo  | ✖️| ✖️ 
+| Musicplayer       | 🎵 [Musicplayer](experiments/Musicplayer) | https://albererre.com/experiments/music  | ✖️| ✖️ 
+| Launching Dice    | 🎲 [Dice](experiments/Dice)               | https://albererre.com/experiments/dice   | ✖️| ✖️ 
+| Console           | 🕹️ [Console](experiments/Console)         |                                          | ✖️| ✖️ 
+
+---------- 
+
+### 🎹👾 Space Invader Piano Live example:
+[<img src="experiments/piano.png" width="800">](https://albererre.com/experiments/piano)
+
+---------- 
+
+### 📝 React ToDo App Live example:
+[<img src="https://github.com/AlberErre/To-Do-App/blob/master/example-screenshot.png?raw=true" width="800">](https://github.com/AlberErre/To-Do-App)
+
+---------- 
+
+### 💬 Chatty chat Live example:
+[<img src="https://raw.githubusercontent.com/AlberErre/ChattyChat-firebase/master/example-chattychat.png" width="800">](https://albererre.com/experiments/chattychat/)
+
+---------- 
+
+### 💍 Love certificates Live example:
+[<img src="https://github.com/AlberErre/marriage-certificates-react/raw/master/images/example-register-view.png" width="800">](https://ether-marriage.com/)
 
 ---------- 
 
@@ -17,11 +40,6 @@
 
 ### 🎵 Musicplayer Live example:
 [<img src="experiments/musicplayer.gif">](https://albererre.com/experiments/music)
-
----------- 
-
-### 🎹 Piano Live example:
-[<img src="experiments/piano.png" width="800">](https://albererre.com/experiments/piano)
 
 ---------- 
 
