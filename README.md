@@ -14,7 +14,7 @@
 ---------- 
 
 ### 🎹👾 Space Invader Piano Live example:
-[<img src="experiments/piano.png" width="800">](https://albererre.com/experiments/piano)
+[<img src="https://github.com/AlberErre/piano-react-hooks/raw/master/piano-screenshot.png?raw=true" width="800">](http://albererre.com/piano-react-hooks/)
 
 ---------- 
 
